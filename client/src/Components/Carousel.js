@@ -49,6 +49,7 @@ export const Carousel = () => {
           key={page}
           src={images[imageIndex]}
           custom={direction}
+          className="h-full w-full object-cover"
           variants={variants}
           initial="enter"
           animate="center"

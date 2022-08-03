@@ -12,8 +12,8 @@ function PopAnim() {
 
 
   return (
-    <div className='translate-y-1/4 flex justify-center'>
-    <motion.img src="/assets/logowithouttext.png" className='pt-48' initial={{opacity:0}} animate={{ rotateX: 360, rotateZ:360, rotateY:360, opacity:1 }} transition={{ duration: 3}} />
+    <div className='items-center flex justify-center w-screen h-screen bg-black'>
+    <motion.img src="/assets/logowithouttext.png"  initial={{opacity:0}} animate={{ rotateX: 360, rotateZ:360, rotateY:360, opacity:1 }} transition={{ duration: 3}} />
 
     </div>
   )
