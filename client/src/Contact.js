@@ -12,7 +12,7 @@ function Contact() {
 
 
 
-        <section class=" px-20 py-20 lg:py-[120px] overflow-hidden relative z-10">
+        <section class=" lg:px-20 xl:px-20 sm:px-none flex justify-center py-20 lg:py-[120px] overflow-hidden relative z-5">
    <div class="container">
       <div class="flex flex-wrap lg:justify-between -mx-4 ">
          <motion.div initial={{
@@ -165,7 +165,7 @@ function Contact() {
                </div>
             </div>
          </motion.div>
-         <motion.div class="w-full mt-20 lg:w-1/2 lg:mt-0 xl:w-5/12 xl:mt-0 px-4" initial={{
+         <motion.div class="w-full supersmall:w-full sm:w-full md:w-full mt-20 lg:w-1/2 lg:mt-0 xl:w-5/12 xl:mt-0 px-4" initial={{
                     opacity: 0,
                     y: -1050
                   }}

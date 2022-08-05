@@ -7,7 +7,9 @@ module.exports = {
     extend: {
       screens: {
         'supersmall': {'min': '340px', 'max': '639px'},
+        'tablet': {'min':'640px', 'max': '770px'}
       }
+
     },
   },
   plugins: [],

@@ -24,12 +24,12 @@ function Navbar({pageNumber, styleNav}) {
     animate={displayNavbarMobile ? {
             x:0} : {
               
-            }} className="absolute lg:hidden xl:hidden md:block supersmall:block w-full h-full bg-black top-16 text-center justify-center items-cneter z-10">
+            }} className=" absolute lg:hidden xl:hidden md:block supersmall:block w-full h-full bg-black top-16 text-center justify-center items-cneter z-40 overflow-y-visible">
         <h1 onClick={() => navigate("/home")} className={pageNumber === 1 ? 'py-3 px-5 text-[#313335] transition cursor-pointer' : 'py-3 px-5 transition hover:text-[#98999A] cursor-pointer'}>Home</h1>
         <h1 onClick={() => navigate("/about")} className={pageNumber === 2 ? 'py-3 px-5 text-[#313335] transition cursor-pointer' : 'py-3 px-5 transition hover:text-[#98999A] cursor-pointer'}>About</h1> 
         <h1 onClick={() => navigate("/images")} className={pageNumber === 3 ? 'py-3 px-5 text-[#313335] transition cursor-pointer' : ' py-3 px-5 transition hover:text-[#98999A] cursor-pointer'}>Images</h1> 
         <h1 onClick={() => navigate("/videos")} className={pageNumber === 4 ? 'py-3 pb-5 px-5 text-[#313335] transition cursor-pointer' : 'py-3 pb-5 px-5 transition hover:text-[#98999A] cursor-pointer'}>Videos</h1>
-        <button onClick={() => navigate("/contact")} className={pageNumber === 5 ? 'lg:flex transition xl:flex md:hidden sm:hidden supersmall:hidden absolute  px-9 right-10 top-4 py-1 mt-10 rounded-2xl text-lg font-bold  border-2   border-red-600 bg-black text-red-600' :'mt-10 bg-red-600 px-9 right-10 top-4 py-1 rounded-2xl text-lg font-bold text-black border-2  border-red-600 hover:border-red-600 hover:bg-black hover:text-red-600'}>Contact</button>
+        <button onClick={() => navigate("/contact")} className={pageNumber === 5 ? 'lg:flex transition xl:hidden md:flex sm:flex supersmall:flex sm:mx-auto supersmall:mx-auto px-9 py-1 mt-10 rounded-2xl text-lg font-bold  border-2   border-red-600 bg-black text-red-600' :'mt-10 bg-red-600 px-9 py-1 rounded-2xl text-lg font-bold text-black border-2  border-red-600 hover:border-red-600 hover:bg-black hover:text-red-600'}>Contact</button>
       </motion.div> 
       <div className=' text-center w-screen top-6 justify-center text-lg font-semibold flex absolute lg:flex xl:flex md:hidden sm:hidden supersmall:hidden'>
         <h1 onClick={() => navigate("/home")} className={pageNumber === 1 ? 'px-5 text-[#313335] transition cursor-pointer' : 'px-5 transition hover:text-[#98999A] cursor-pointer'}>Home</h1>

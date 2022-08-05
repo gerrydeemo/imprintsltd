@@ -5,8 +5,8 @@ function VideoPage() {
 
   return (
     
-    <div className='bg-black w-screen h-screen overflow-y-scroll overflow-x-hidden'>
-        <Navbar pageNumber={4} styleNav={"relative"}/>
+    <div className='bg-black w-screen h-screen overflow-y-scroll overflow-x-hidden '>
+        <Navbar pageNumber={4} styleNav={"xl:relative lg:relative"}/>
 
         <motion.div initial={{opacity:0}} animate={{opacity:1}} className="w-full h-full mt-10 flex justify-center">
 
